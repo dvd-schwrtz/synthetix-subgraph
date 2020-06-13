@@ -24,7 +24,7 @@
     "deploy:snx": "npm run deploy -- synthetixio-team/synthetix subgraphs/synthetix.yaml",
     "deploy:rates": "npm run deploy -- synthetixio-team/synthetix-rates subgraphs/synthetix-rates.yaml",
     "deploy:depot": "npm run deploy -- synthetixio-team/synthetix-depot subgraphs/synthetix-depot.yaml",
-    "deploy:exchanges": "npm run deploy -- synthetixio-team/synthetix-exchanges subgraphs/synthetix-exchanges.yaml",
+    "deploy:exchanges": "npm run deploy -- dvd-schwrtz/david-synthetix subgraphs/synthetix-exchanges.yaml",
     "create-local": "graph create --node http://localhost:8020/ synthetixio-team/synthetix",
     "remove-local": "graph remove --node http://localhost:8020/ synthetixio-team/synthetix",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 synthetixio-team/synthetix"
